@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cframe</class>
+ <widget class="QMainWindow" name="cframe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cframe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>831</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QGroupBox" name="GB_Menu">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>120</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Menu</string>
+      </property>
+      <widget class="QRadioButton" name="RB_Mostrar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mostrar</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Exportar_xls">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exportar xls</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Agregar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Agregar</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Eliminar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Modificar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modificar</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Jugar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Jugar</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Exportar_BD">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exportar BD</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Importar_BD">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Importar BD</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="Lbl_Titulo">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>0</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MathJax_Fraktur</family>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Casino</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="TW_Mostrar">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>811</width>
+        <height>291</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="GB_Agregar_Eliminar">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>360</y>
+        <width>151</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Agregar / Eliminar</string>
+      </property>
+      <widget class="QRadioButton" name="RB_Frente">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Frente</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_3er_Pos">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3er Posición</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Antepenultimo">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>111</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Antepenultimo</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Final">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Final</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Cualquier_Pos">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>131</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cualquier Posición</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="GB_Submenu">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>380</y>
+        <width>120</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>SubMenu</string>
+      </property>
+      <widget class="QRadioButton" name="RB_Baraja">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Baraja</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Jugador">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Jugador</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="RB_Empleado">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>96</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Empleado</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Btn_Aceptar">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>590</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aceptar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>835</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
